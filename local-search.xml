@@ -8,7 +8,7 @@
     <link href="/2024/06/17/OS/"/>
     <url>/2024/06/17/OS/</url>
     
-    <content type="html"><![CDATA[<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><h2 id="CONTENT"><a href="#CONTENT" class="headerlink" title="CONTENT"></a>CONTENT</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><p>简介：</p><hr><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h2 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h2>]]></content>
     
     
     <categories>
@@ -31,32 +31,19 @@
   
   
   <entry>
-    <title>期末复习计划</title>
-    <link href="/2024/06/16/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
-    <url>/2024/06/16/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92/</url>
+    <title>测试文章</title>
+    <link href="/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3>]]></content>
+    <content type="html"><![CDATA[<img src="/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/marco.jpg" class="" title="图片引用方式一"><h4 id="便签："><a href="#便签：" class="headerlink" title="便签："></a>便签：</h4><div class="note note-success">            <p>success note</p>          </div><div class="note note-danger">            <p>danger note</p>          </div><div class="note note-info">            <p>info note</p>          </div><h4 id="LaTeX数学公式"><a href="#LaTeX数学公式" class="headerlink" title="LaTeX数学公式"></a>LaTeX数学公式</h4><ol><li>设置主题配置</li><li>更换渲染器<br>npm uninstall hexo-renderer-marked –save<br>npm install hexo-renderer-pandoc –save</li><li>安装完成后执行 <span class="label label-info">hexo clean</span></li></ol><h4 id="Mermaid流程图"><a href="#Mermaid流程图" class="headerlink" title="Mermaid流程图"></a>Mermaid流程图</h4>]]></content>
     
     
     
     <tags>
       
-      <tag>计划</tag>
+      <tag>test</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>测试文章</title>
-    <link href="/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <url>/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[<img src="/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/marco.jpg" class="" title="图片引用方式一">]]></content>
-    
-    
     
   </entry>
   

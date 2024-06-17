@@ -16,17 +16,20 @@
   <meta name="author" content="Cashmere">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
+    <meta name="description" content="便签：             success note                          danger note                          info note             LaTeX数学公式 设置主题配置 更换渲染器npm uninstall hexo-renderer-marked –savenpm install hexo-rende">
+<meta property="og:type" content="article">
 <meta property="og:title" content="测试文章">
 <meta property="og:url" content="http://lotus-yr.github.io/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/index.html">
 <meta property="og:site_name" content="YR&#39;s Blog">
+<meta property="og:description" content="便签：             success note                          danger note                          info note             LaTeX数学公式 设置主题配置 更换渲染器npm uninstall hexo-renderer-marked –savenpm install hexo-rende">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://lotus-yr.github.io/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/marco.jpg">
+<meta property="og:image" content="http://lotus-yr.github.io/img/example.jpg">
 <meta property="article:published_time" content="2024-06-16T02:48:40.000Z">
-<meta property="article:modified_time" content="2024-06-16T03:03:13.130Z">
+<meta property="article:modified_time" content="2024-06-17T08:53:08.570Z">
 <meta property="article:author" content="Cashmere">
+<meta property="article:tag" content="test">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://lotus-yr.github.io/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/marco.jpg">
+<meta name="twitter:image" content="http://lotus-yr.github.io/img/example.jpg">
   
   
   
@@ -94,7 +97,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>BLOG</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -219,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          34 字
         
       </span>
     
@@ -274,6 +277,25 @@
                 
                 <img src="/2024/06/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/marco.jpg" srcset="/img/loading.gif" lazyload class="" title="图片引用方式一">
 
+
+<h4 id="便签："><a href="#便签：" class="headerlink" title="便签："></a>便签：</h4><div class="note note-success">
+            <p>success note</p>
+          </div>
+
+<div class="note note-danger">
+            <p>danger note</p>
+          </div>
+
+<div class="note note-info">
+            <p>info note</p>
+          </div>
+
+<h4 id="LaTeX数学公式"><a href="#LaTeX数学公式" class="headerlink" title="LaTeX数学公式"></a>LaTeX数学公式</h4><ol>
+<li>设置主题配置</li>
+<li>更换渲染器<br>npm uninstall hexo-renderer-marked –save<br>npm install hexo-renderer-pandoc –save</li>
+<li>安装完成后执行 <span class="label label-info">hexo clean</span></li>
+</ol>
+<h4 id="Mermaid流程图"><a href="#Mermaid流程图" class="headerlink" title="Mermaid流程图"></a>Mermaid流程图</h4>
                 
               </div>
             
@@ -281,6 +303,13 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/test/" class="print-no-link">#test</a>
+      
+    </div>
   
 </div>
 
@@ -335,9 +364,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/06/16/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92/" title="期末复习计划">
+                      <a href="/2024/06/17/OS/" title="OS">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">期末复习计划</span>
+                        <span class="hidden-mobile">OS</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -404,6 +433,27 @@
 
   
 
+
+  
+  
+
+
+
+
+
+  <script>
+  Fluid.utils.createScript('https://lib.baomitu.com/mermaid/8.14.0/mermaid.min.js', function() {
+    mermaid.initialize({"theme":"default"});
+
+    Fluid.utils.listenDOMLoaded(function() {
+      Fluid.events.registerRefreshCallback(function() {
+        if ('mermaid' in window) {
+          mermaid.init();
+        }
+      });
+    });
+  });
+</script>
 
 
 
@@ -596,6 +646,49 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
